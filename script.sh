@@ -1,5 +1,6 @@
 #!/bin/bash
 
-NAME=Akshaya
-
-echo $NAME
+for file in $(ls *)
+do
+echo $file
+done
